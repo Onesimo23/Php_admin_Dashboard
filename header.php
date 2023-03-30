@@ -840,8 +840,8 @@
 				</div>
 				
 				<div class="copyright">
-					<p><strong>Fillow Saas Admin</strong> © 2021 All Rights Reserved</p>
-					<p class="fs-12">Made with <span class="heart"></span> by onesimo</p>
+					<p><strong>OnesimoTech</strong> © Todos Direitos Reservados <?php echo date("Y"); ?></p>
+					<p class="fs-12">Feito <span class="heart"></span> por onesimo</p>
 				</div>
 			</div>
         </div>
