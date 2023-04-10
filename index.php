@@ -39,11 +39,11 @@
                                     <form action="home.php">
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Email</strong></label>
-                                            <input type="email" class="form-control" value="hello@example.com">
+                                            <input type="email" class="form-control" placeholder="onesimonuvunga@gmail.com">
                                         </div>
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Password</strong></label>
-                                            <input type="password" class="form-control" value="Password">
+                                            <input type="password" class="form-control" placeholder="Password">
                                         </div>
                                         <div class="row d-flex justify-content-between mt-4 mb-2">
                                             <div class="mb-3">
@@ -61,7 +61,7 @@
                                         </div>
                                     </form>
                                     <div class="new-account mt-3">
-                                        <p>Não tens uma conta? <a class="text-primary" href="assets/page-register.html">Inscrever-se</a></p>
+                                        <p>Não tens uma conta? <a class="text-primary" href="cadastro.php">Inscrever-se</a></p>
                                     </div>
                                 </div>
                             </div>

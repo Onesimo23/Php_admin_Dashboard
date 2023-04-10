@@ -11,8 +11,12 @@ include_once("../db.php");
                         <div class="card">
                             <div class="card-header">
                                 <h4 class="card-title">Tabela dos produtos</h4>
+                                <p>
+                                <a href="product/add.php"><button class="btn btn-sm btn-info ">Add Produto</button></a>
+                                </p>
+                       
                             </div>
-                            <div class="card-body">
+                                <div class="card-body">
                                 <div class="table-responsive">
                                     <table id="example3" class="table table-bordered" style="min-width: 845px">
                                         <thead>
@@ -43,7 +47,7 @@ include_once("../db.php");
 						  
 						  <!--  redireciona o botao editar e apagar para os repectivos ficheiros  -->
 						  <td>
-							<a class="btn btn-sm btn-info " href="edit.php?id=<?php echo $value['id']; ?>"> Editar </a> - 
+							<a class="btn btn-sm btn-info " href="product/edit.php?id=<?php echo $value['id']; ?>"> Editar </a> - 
 							<a class="btn btn-sm btn-danger " href="product/deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
 						  </td>
                         </tr>
